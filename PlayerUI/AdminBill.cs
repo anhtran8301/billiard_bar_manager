@@ -46,8 +46,13 @@ namespace QuanLyBanBida
         {
             LoadListBillByDate(dtpk_FromDate.Value, dtpk_ToDate.Value);
         }
+
         #endregion
 
-
+        private void btn_BackupRestore_Click(object sender, EventArgs e)
+        {
+            AdminBackUpData fb = new AdminBackUpData();
+            fb.ShowDialog();
+        }
     }
 }

@@ -58,9 +58,8 @@
             this.guna2Panel2.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(441, 465);
+            this.guna2Panel2.Size = new System.Drawing.Size(331, 378);
             this.guna2Panel2.TabIndex = 9;
             // 
             // btn_ResetPassword
@@ -72,10 +71,9 @@
             this.btn_ResetPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_ResetPassword.ForeColor = System.Drawing.Color.White;
             this.btn_ResetPassword.HoverState.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.btn_ResetPassword.Location = new System.Drawing.Point(4, 433);
-            this.btn_ResetPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_ResetPassword.Location = new System.Drawing.Point(3, 352);
             this.btn_ResetPassword.Name = "btn_ResetPassword";
-            this.btn_ResetPassword.Size = new System.Drawing.Size(183, 28);
+            this.btn_ResetPassword.Size = new System.Drawing.Size(137, 23);
             this.btn_ResetPassword.TabIndex = 7;
             this.btn_ResetPassword.Text = "Quên mật khẩu ?";
             this.btn_ResetPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -91,10 +89,9 @@
             this.btn_Login.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_Login.ForeColor = System.Drawing.Color.White;
             this.btn_Login.HoverState.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.btn_Login.Location = new System.Drawing.Point(139, 333);
-            this.btn_Login.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Login.Location = new System.Drawing.Point(104, 271);
             this.btn_Login.Name = "btn_Login";
-            this.btn_Login.Size = new System.Drawing.Size(147, 48);
+            this.btn_Login.Size = new System.Drawing.Size(110, 39);
             this.btn_Login.TabIndex = 6;
             this.btn_Login.Text = "Login";
             this.btn_Login.UseTransparentBackground = true;
@@ -116,14 +113,13 @@
             this.txt_Password.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.txt_Password.ForeColor = System.Drawing.Color.White;
             this.txt_Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_Password.Location = new System.Drawing.Point(45, 260);
-            this.txt_Password.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_Password.Location = new System.Drawing.Point(34, 211);
             this.txt_Password.Name = "txt_Password";
             this.txt_Password.PasswordChar = '●';
             this.txt_Password.PlaceholderForeColor = System.Drawing.Color.White;
             this.txt_Password.PlaceholderText = "Password";
             this.txt_Password.SelectedText = "";
-            this.txt_Password.Size = new System.Drawing.Size(335, 44);
+            this.txt_Password.Size = new System.Drawing.Size(251, 36);
             this.txt_Password.TabIndex = 2;
             this.txt_Password.UseSystemPasswordChar = true;
             // 
@@ -143,25 +139,24 @@
             this.txt_NameID.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_NameID.ForeColor = System.Drawing.Color.White;
             this.txt_NameID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_NameID.Location = new System.Drawing.Point(45, 188);
-            this.txt_NameID.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_NameID.Location = new System.Drawing.Point(34, 153);
             this.txt_NameID.Name = "txt_NameID";
             this.txt_NameID.PasswordChar = '\0';
             this.txt_NameID.PlaceholderForeColor = System.Drawing.Color.White;
             this.txt_NameID.PlaceholderText = "User";
             this.txt_NameID.SelectedText = "";
-            this.txt_NameID.Size = new System.Drawing.Size(335, 44);
+            this.txt_NameID.Size = new System.Drawing.Size(251, 36);
             this.txt_NameID.TabIndex = 1;
+            this.txt_NameID.TextChanged += new System.EventHandler(this.txt_NameID_TextChanged);
             // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(123, 20);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(92, 16);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(191, 160);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(143, 130);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -188,10 +183,9 @@
             this.btn_Minium.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
             this.btn_Minium.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
             this.btn_Minium.IconColor = System.Drawing.Color.White;
-            this.btn_Minium.Location = new System.Drawing.Point(676, 15);
-            this.btn_Minium.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Minium.Location = new System.Drawing.Point(507, 12);
             this.btn_Minium.Name = "btn_Minium";
-            this.btn_Minium.Size = new System.Drawing.Size(47, 34);
+            this.btn_Minium.Size = new System.Drawing.Size(35, 28);
             this.btn_Minium.TabIndex = 3;
             // 
             // btn_Exit
@@ -200,10 +194,9 @@
             this.btn_Exit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
             this.btn_Exit.HoverState.FillColor = System.Drawing.Color.Red;
             this.btn_Exit.IconColor = System.Drawing.Color.White;
-            this.btn_Exit.Location = new System.Drawing.Point(731, 15);
-            this.btn_Exit.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Exit.Location = new System.Drawing.Point(548, 12);
             this.btn_Exit.Name = "btn_Exit";
-            this.btn_Exit.Size = new System.Drawing.Size(47, 34);
+            this.btn_Exit.Size = new System.Drawing.Size(35, 28);
             this.btn_Exit.TabIndex = 2;
             // 
             // guna2Panel1
@@ -212,20 +205,20 @@
             this.guna2Panel1.Controls.Add(this.btn_Minium);
             this.guna2Panel1.Controls.Add(this.btn_Exit);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2Panel1.Location = new System.Drawing.Point(401, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Panel1.Location = new System.Drawing.Point(300, 0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(794, 465);
+            this.guna2Panel1.Size = new System.Drawing.Size(596, 378);
             this.guna2Panel1.TabIndex = 8;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1195, 465);
+            this.ClientSize = new System.Drawing.Size(896, 378);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

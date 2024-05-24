@@ -205,13 +205,12 @@
             this.txt_Name.Location = new System.Drawing.Point(415, 217);
             this.txt_Name.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Name.Name = "txt_Name";
-            this.txt_Name.PasswordChar = '●';
+            this.txt_Name.PasswordChar = '\0';
             this.txt_Name.PlaceholderForeColor = System.Drawing.Color.White;
             this.txt_Name.PlaceholderText = "Tên hiển thị";
             this.txt_Name.SelectedText = "";
             this.txt_Name.Size = new System.Drawing.Size(335, 44);
             this.txt_Name.TabIndex = 2;
-            this.txt_Name.UseSystemPasswordChar = true;
             // 
             // txt_User
             // 

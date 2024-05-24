@@ -48,5 +48,10 @@ namespace QuanLyBanBida
             ForgotPassword f = new ForgotPassword();
             f.ShowDialog(this);
         }
+
+        private void txt_NameID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

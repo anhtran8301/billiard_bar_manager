@@ -164,7 +164,7 @@ namespace QuanLyBanBida
                 string name = txt_NameCustomer.Text;
                 string gender = txt_SexCustomer.Text;
                 string phonenumber = txt_PhoneNumberCustomer.Text;
-                string daycheckin = txt_PhoneNumberCustomer.Text;
+                string daycheckin = txt_DateCheckin.Text;
                 string idcatgorycustomer = txt_CategoryCustomer.Text;
                 themkhachang(idcustomer, name, gender, phonenumber, daycheckin, idcatgorycustomer);
                 xemdulieukhachang();
@@ -247,6 +247,19 @@ namespace QuanLyBanBida
         private void AdminCustom_Load(object sender, EventArgs e)
         {
             databindingcustomer();
+        }
+
+        private void dtgv_Customer_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int index = e.RowIndex;
+            var selectedRow = dtgv_Customer.Rows[index];
+            //txt_idCategory.Text = selectedRow.Cells[0].Value.ToString();
+            txt_IDCustomer.Text = selectedRow.Cells[0].Value.ToString();
+            txt_NameCustomer.Text = selectedRow.Cells[1].Value.ToString();
+            txt_SexCustomer.Text = selectedRow.Cells[2].Value.ToString();
+            txt_PhoneNumberCustomer.Text = selectedRow.Cells[3].Value.ToString();
+            txt_DateCheckin.Text = selectedRow.Cells[4].Value.ToString();
+            txt_CategoryCustomer.Text = selectedRow.Cells[5].Value.ToString();
         }
     }
 }

@@ -158,6 +158,12 @@
     <Compile Include="AdminAccount.Designer.cs">
       <DependentUpon>AdminAccount.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminBackUpData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBackUpData.Designer.cs">
+      <DependentUpon>AdminBackUpData.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminCustom.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -234,6 +240,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminAccount.resx">
       <DependentUpon>AdminAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBackUpData.resx">
+      <DependentUpon>AdminBackUpData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminCustom.resx">
       <DependentUpon>AdminCustom.cs</DependentUpon>

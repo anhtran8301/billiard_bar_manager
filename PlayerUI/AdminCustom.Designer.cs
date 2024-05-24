@@ -68,9 +68,10 @@
             // 
             this.panel6.Controls.Add(this.txt_SearchCustomerName);
             this.panel6.Controls.Add(this.btn_SearchCustomer);
-            this.panel6.Location = new System.Drawing.Point(32, 27);
+            this.panel6.Location = new System.Drawing.Point(24, 22);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1115, 59);
+            this.panel6.Size = new System.Drawing.Size(836, 48);
             this.panel6.TabIndex = 22;
             // 
             // txt_SearchCustomerName
@@ -78,7 +79,7 @@
             this.txt_SearchCustomerName.Animated = true;
             this.txt_SearchCustomerName.AutoRoundedCorners = true;
             this.txt_SearchCustomerName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
-            this.txt_SearchCustomerName.BorderRadius = 17;
+            this.txt_SearchCustomerName.BorderRadius = 13;
             this.txt_SearchCustomerName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_SearchCustomerName.DefaultText = "";
             this.txt_SearchCustomerName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -90,14 +91,13 @@
             this.txt_SearchCustomerName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.txt_SearchCustomerName.ForeColor = System.Drawing.Color.White;
             this.txt_SearchCustomerName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_SearchCustomerName.Location = new System.Drawing.Point(53, 15);
-            this.txt_SearchCustomerName.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_SearchCustomerName.Location = new System.Drawing.Point(40, 12);
             this.txt_SearchCustomerName.Name = "txt_SearchCustomerName";
             this.txt_SearchCustomerName.PasswordChar = '\0';
             this.txt_SearchCustomerName.PlaceholderForeColor = System.Drawing.Color.White;
             this.txt_SearchCustomerName.PlaceholderText = "";
             this.txt_SearchCustomerName.SelectedText = "";
-            this.txt_SearchCustomerName.Size = new System.Drawing.Size(872, 36);
+            this.txt_SearchCustomerName.Size = new System.Drawing.Size(654, 29);
             this.txt_SearchCustomerName.TabIndex = 28;
             // 
             // btn_SearchCustomer
@@ -105,9 +105,10 @@
             this.btn_SearchCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(20)))), ((int)(((byte)(137)))));
             this.btn_SearchCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_SearchCustomer.ForeColor = System.Drawing.Color.White;
-            this.btn_SearchCustomer.Location = new System.Drawing.Point(975, 15);
+            this.btn_SearchCustomer.Location = new System.Drawing.Point(731, 12);
+            this.btn_SearchCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_SearchCustomer.Name = "btn_SearchCustomer";
-            this.btn_SearchCustomer.Size = new System.Drawing.Size(115, 38);
+            this.btn_SearchCustomer.Size = new System.Drawing.Size(86, 31);
             this.btn_SearchCustomer.TabIndex = 5;
             this.btn_SearchCustomer.Text = "Tìm kiếm";
             this.btn_SearchCustomer.UseVisualStyleBackColor = false;
@@ -128,9 +129,10 @@
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.lbl_NameCategory);
             this.panel4.Controls.Add(this.lbl_CategoryID);
-            this.panel4.Location = new System.Drawing.Point(32, 92);
+            this.panel4.Location = new System.Drawing.Point(24, 75);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1115, 172);
+            this.panel4.Size = new System.Drawing.Size(836, 140);
             this.panel4.TabIndex = 21;
             // 
             // txt_CategoryCustomer
@@ -138,7 +140,7 @@
             this.txt_CategoryCustomer.Animated = true;
             this.txt_CategoryCustomer.AutoRoundedCorners = true;
             this.txt_CategoryCustomer.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
-            this.txt_CategoryCustomer.BorderRadius = 14;
+            this.txt_CategoryCustomer.BorderRadius = 11;
             this.txt_CategoryCustomer.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_CategoryCustomer.DefaultText = "";
             this.txt_CategoryCustomer.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -150,14 +152,13 @@
             this.txt_CategoryCustomer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.txt_CategoryCustomer.ForeColor = System.Drawing.Color.White;
             this.txt_CategoryCustomer.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_CategoryCustomer.Location = new System.Drawing.Point(770, 129);
-            this.txt_CategoryCustomer.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_CategoryCustomer.Location = new System.Drawing.Point(578, 105);
             this.txt_CategoryCustomer.Name = "txt_CategoryCustomer";
             this.txt_CategoryCustomer.PasswordChar = '\0';
             this.txt_CategoryCustomer.PlaceholderForeColor = System.Drawing.Color.White;
             this.txt_CategoryCustomer.PlaceholderText = "";
             this.txt_CategoryCustomer.SelectedText = "";
-            this.txt_CategoryCustomer.Size = new System.Drawing.Size(335, 30);
+            this.txt_CategoryCustomer.Size = new System.Drawing.Size(251, 24);
             this.txt_CategoryCustomer.TabIndex = 30;
             // 
             // txt_SexCustomer
@@ -165,7 +166,7 @@
             this.txt_SexCustomer.Animated = true;
             this.txt_SexCustomer.AutoRoundedCorners = true;
             this.txt_SexCustomer.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
-            this.txt_SexCustomer.BorderRadius = 14;
+            this.txt_SexCustomer.BorderRadius = 11;
             this.txt_SexCustomer.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_SexCustomer.DefaultText = "";
             this.txt_SexCustomer.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -177,14 +178,13 @@
             this.txt_SexCustomer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.txt_SexCustomer.ForeColor = System.Drawing.Color.White;
             this.txt_SexCustomer.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_SexCustomer.Location = new System.Drawing.Point(116, 129);
-            this.txt_SexCustomer.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_SexCustomer.Location = new System.Drawing.Point(87, 105);
             this.txt_SexCustomer.Name = "txt_SexCustomer";
             this.txt_SexCustomer.PasswordChar = '\0';
             this.txt_SexCustomer.PlaceholderForeColor = System.Drawing.Color.White;
             this.txt_SexCustomer.PlaceholderText = "";
             this.txt_SexCustomer.SelectedText = "";
-            this.txt_SexCustomer.Size = new System.Drawing.Size(335, 30);
+            this.txt_SexCustomer.Size = new System.Drawing.Size(251, 24);
             this.txt_SexCustomer.TabIndex = 28;
             // 
             // txt_DateCheckin
@@ -192,7 +192,7 @@
             this.txt_DateCheckin.Animated = true;
             this.txt_DateCheckin.AutoRoundedCorners = true;
             this.txt_DateCheckin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
-            this.txt_DateCheckin.BorderRadius = 14;
+            this.txt_DateCheckin.BorderRadius = 11;
             this.txt_DateCheckin.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_DateCheckin.DefaultText = "";
             this.txt_DateCheckin.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -204,14 +204,13 @@
             this.txt_DateCheckin.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.txt_DateCheckin.ForeColor = System.Drawing.Color.White;
             this.txt_DateCheckin.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_DateCheckin.Location = new System.Drawing.Point(770, 73);
-            this.txt_DateCheckin.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_DateCheckin.Location = new System.Drawing.Point(578, 59);
             this.txt_DateCheckin.Name = "txt_DateCheckin";
             this.txt_DateCheckin.PasswordChar = '\0';
             this.txt_DateCheckin.PlaceholderForeColor = System.Drawing.Color.White;
             this.txt_DateCheckin.PlaceholderText = "";
             this.txt_DateCheckin.SelectedText = "";
-            this.txt_DateCheckin.Size = new System.Drawing.Size(335, 30);
+            this.txt_DateCheckin.Size = new System.Drawing.Size(251, 24);
             this.txt_DateCheckin.TabIndex = 29;
             // 
             // txt_IDCustomer
@@ -219,7 +218,7 @@
             this.txt_IDCustomer.Animated = true;
             this.txt_IDCustomer.AutoRoundedCorners = true;
             this.txt_IDCustomer.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
-            this.txt_IDCustomer.BorderRadius = 14;
+            this.txt_IDCustomer.BorderRadius = 11;
             this.txt_IDCustomer.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_IDCustomer.DefaultText = "";
             this.txt_IDCustomer.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -231,14 +230,13 @@
             this.txt_IDCustomer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.txt_IDCustomer.ForeColor = System.Drawing.Color.White;
             this.txt_IDCustomer.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_IDCustomer.Location = new System.Drawing.Point(116, 15);
-            this.txt_IDCustomer.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_IDCustomer.Location = new System.Drawing.Point(87, 12);
             this.txt_IDCustomer.Name = "txt_IDCustomer";
             this.txt_IDCustomer.PasswordChar = '\0';
             this.txt_IDCustomer.PlaceholderForeColor = System.Drawing.Color.White;
             this.txt_IDCustomer.PlaceholderText = "";
             this.txt_IDCustomer.SelectedText = "";
-            this.txt_IDCustomer.Size = new System.Drawing.Size(335, 30);
+            this.txt_IDCustomer.Size = new System.Drawing.Size(251, 24);
             this.txt_IDCustomer.TabIndex = 26;
             // 
             // txt_PhoneNumberCustomer
@@ -246,7 +244,7 @@
             this.txt_PhoneNumberCustomer.Animated = true;
             this.txt_PhoneNumberCustomer.AutoRoundedCorners = true;
             this.txt_PhoneNumberCustomer.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
-            this.txt_PhoneNumberCustomer.BorderRadius = 14;
+            this.txt_PhoneNumberCustomer.BorderRadius = 11;
             this.txt_PhoneNumberCustomer.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_PhoneNumberCustomer.DefaultText = "";
             this.txt_PhoneNumberCustomer.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -258,14 +256,13 @@
             this.txt_PhoneNumberCustomer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.txt_PhoneNumberCustomer.ForeColor = System.Drawing.Color.White;
             this.txt_PhoneNumberCustomer.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_PhoneNumberCustomer.Location = new System.Drawing.Point(770, 15);
-            this.txt_PhoneNumberCustomer.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_PhoneNumberCustomer.Location = new System.Drawing.Point(578, 12);
             this.txt_PhoneNumberCustomer.Name = "txt_PhoneNumberCustomer";
             this.txt_PhoneNumberCustomer.PasswordChar = '\0';
             this.txt_PhoneNumberCustomer.PlaceholderForeColor = System.Drawing.Color.White;
             this.txt_PhoneNumberCustomer.PlaceholderText = "";
             this.txt_PhoneNumberCustomer.SelectedText = "";
-            this.txt_PhoneNumberCustomer.Size = new System.Drawing.Size(335, 30);
+            this.txt_PhoneNumberCustomer.Size = new System.Drawing.Size(251, 24);
             this.txt_PhoneNumberCustomer.TabIndex = 29;
             // 
             // txt_NameCustomer
@@ -273,7 +270,7 @@
             this.txt_NameCustomer.Animated = true;
             this.txt_NameCustomer.AutoRoundedCorners = true;
             this.txt_NameCustomer.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(153)))), ((int)(((byte)(149)))));
-            this.txt_NameCustomer.BorderRadius = 14;
+            this.txt_NameCustomer.BorderRadius = 11;
             this.txt_NameCustomer.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_NameCustomer.DefaultText = "";
             this.txt_NameCustomer.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -285,14 +282,13 @@
             this.txt_NameCustomer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.txt_NameCustomer.ForeColor = System.Drawing.Color.White;
             this.txt_NameCustomer.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_NameCustomer.Location = new System.Drawing.Point(116, 68);
-            this.txt_NameCustomer.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_NameCustomer.Location = new System.Drawing.Point(87, 55);
             this.txt_NameCustomer.Name = "txt_NameCustomer";
             this.txt_NameCustomer.PasswordChar = '\0';
             this.txt_NameCustomer.PlaceholderForeColor = System.Drawing.Color.White;
             this.txt_NameCustomer.PlaceholderText = "";
             this.txt_NameCustomer.SelectedText = "";
-            this.txt_NameCustomer.Size = new System.Drawing.Size(335, 30);
+            this.txt_NameCustomer.Size = new System.Drawing.Size(251, 24);
             this.txt_NameCustomer.TabIndex = 27;
             // 
             // label5
@@ -300,9 +296,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(585, 137);
+            this.label5.Location = new System.Drawing.Point(439, 111);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(169, 22);
+            this.label5.Size = new System.Drawing.Size(141, 18);
             this.label5.TabIndex = 14;
             this.label5.Text = "Loại Khách Hàng:";
             // 
@@ -311,9 +308,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(614, 81);
+            this.label4.Location = new System.Drawing.Point(460, 66);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(140, 22);
+            this.label4.Size = new System.Drawing.Size(117, 18);
             this.label4.TabIndex = 13;
             this.label4.Text = "Ngày Checkin:";
             // 
@@ -322,9 +320,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(620, 23);
+            this.label3.Location = new System.Drawing.Point(465, 19);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(134, 22);
+            this.label3.Size = new System.Drawing.Size(112, 18);
             this.label3.TabIndex = 12;
             this.label3.Text = "Số điện thoại:";
             // 
@@ -333,9 +332,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(6, 172);
+            this.label2.Location = new System.Drawing.Point(4, 140);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 22);
+            this.label2.Size = new System.Drawing.Size(0, 18);
             this.label2.TabIndex = 8;
             // 
             // label1
@@ -343,9 +343,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(6, 137);
+            this.label1.Location = new System.Drawing.Point(4, 111);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 22);
+            this.label1.Size = new System.Drawing.Size(81, 18);
             this.label1.TabIndex = 5;
             this.label1.Text = "Giới Tính:";
             // 
@@ -354,9 +355,10 @@
             this.lbl_NameCategory.AutoSize = true;
             this.lbl_NameCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_NameCategory.ForeColor = System.Drawing.Color.White;
-            this.lbl_NameCategory.Location = new System.Drawing.Point(22, 76);
+            this.lbl_NameCategory.Location = new System.Drawing.Point(16, 62);
+            this.lbl_NameCategory.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_NameCategory.Name = "lbl_NameCategory";
-            this.lbl_NameCategory.Size = new System.Drawing.Size(82, 22);
+            this.lbl_NameCategory.Size = new System.Drawing.Size(68, 18);
             this.lbl_NameCategory.TabIndex = 2;
             this.lbl_NameCategory.Text = "Họ Tên:";
             // 
@@ -365,18 +367,20 @@
             this.lbl_CategoryID.AutoSize = true;
             this.lbl_CategoryID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_CategoryID.ForeColor = System.Drawing.Color.White;
-            this.lbl_CategoryID.Location = new System.Drawing.Point(35, 23);
+            this.lbl_CategoryID.Location = new System.Drawing.Point(26, 19);
+            this.lbl_CategoryID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_CategoryID.Name = "lbl_CategoryID";
-            this.lbl_CategoryID.Size = new System.Drawing.Size(69, 22);
+            this.lbl_CategoryID.Size = new System.Drawing.Size(59, 18);
             this.lbl_CategoryID.TabIndex = 1;
             this.lbl_CategoryID.Text = "MaKH:";
             // 
             // btn_AddCustomer
             // 
             this.btn_AddCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(20)))), ((int)(((byte)(137)))));
-            this.btn_AddCustomer.Location = new System.Drawing.Point(12, 2);
+            this.btn_AddCustomer.Location = new System.Drawing.Point(9, 2);
+            this.btn_AddCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_AddCustomer.Name = "btn_AddCustomer";
-            this.btn_AddCustomer.Size = new System.Drawing.Size(86, 47);
+            this.btn_AddCustomer.Size = new System.Drawing.Size(64, 38);
             this.btn_AddCustomer.TabIndex = 15;
             this.btn_AddCustomer.Text = "Thêm";
             this.btn_AddCustomer.UseVisualStyleBackColor = false;
@@ -388,17 +392,19 @@
             this.panel1.Controls.Add(this.btn_EditCustomer);
             this.panel1.Controls.Add(this.btn_DeleteCustomer);
             this.panel1.Controls.Add(this.btn_AddCustomer);
-            this.panel1.Location = new System.Drawing.Point(299, 270);
+            this.panel1.Location = new System.Drawing.Point(224, 219);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(623, 50);
+            this.panel1.Size = new System.Drawing.Size(467, 41);
             this.panel1.TabIndex = 23;
             // 
             // btn_ViewCustomer
             // 
             this.btn_ViewCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(20)))), ((int)(((byte)(137)))));
-            this.btn_ViewCustomer.Location = new System.Drawing.Point(512, 6);
+            this.btn_ViewCustomer.Location = new System.Drawing.Point(384, 5);
+            this.btn_ViewCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_ViewCustomer.Name = "btn_ViewCustomer";
-            this.btn_ViewCustomer.Size = new System.Drawing.Size(93, 44);
+            this.btn_ViewCustomer.Size = new System.Drawing.Size(70, 36);
             this.btn_ViewCustomer.TabIndex = 18;
             this.btn_ViewCustomer.Text = "Xem";
             this.btn_ViewCustomer.UseVisualStyleBackColor = false;
@@ -406,9 +412,10 @@
             // btn_EditCustomer
             // 
             this.btn_EditCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(20)))), ((int)(((byte)(137)))));
-            this.btn_EditCustomer.Location = new System.Drawing.Point(341, 3);
+            this.btn_EditCustomer.Location = new System.Drawing.Point(256, 2);
+            this.btn_EditCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_EditCustomer.Name = "btn_EditCustomer";
-            this.btn_EditCustomer.Size = new System.Drawing.Size(91, 47);
+            this.btn_EditCustomer.Size = new System.Drawing.Size(68, 38);
             this.btn_EditCustomer.TabIndex = 17;
             this.btn_EditCustomer.Text = "Sửa";
             this.btn_EditCustomer.UseVisualStyleBackColor = false;
@@ -417,9 +424,10 @@
             // btn_DeleteCustomer
             // 
             this.btn_DeleteCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(20)))), ((int)(((byte)(137)))));
-            this.btn_DeleteCustomer.Location = new System.Drawing.Point(171, 3);
+            this.btn_DeleteCustomer.Location = new System.Drawing.Point(128, 2);
+            this.btn_DeleteCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_DeleteCustomer.Name = "btn_DeleteCustomer";
-            this.btn_DeleteCustomer.Size = new System.Drawing.Size(86, 47);
+            this.btn_DeleteCustomer.Size = new System.Drawing.Size(64, 38);
             this.btn_DeleteCustomer.TabIndex = 16;
             this.btn_DeleteCustomer.Text = "Xóa";
             this.btn_DeleteCustomer.UseVisualStyleBackColor = false;
@@ -428,12 +436,14 @@
             // dtgv_Customer
             // 
             this.dtgv_Customer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgv_Customer.Location = new System.Drawing.Point(299, 325);
+            this.dtgv_Customer.Location = new System.Drawing.Point(224, 264);
+            this.dtgv_Customer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dtgv_Customer.Name = "dtgv_Customer";
             this.dtgv_Customer.RowHeadersWidth = 51;
             this.dtgv_Customer.RowTemplate.Height = 24;
-            this.dtgv_Customer.Size = new System.Drawing.Size(623, 234);
+            this.dtgv_Customer.Size = new System.Drawing.Size(467, 190);
             this.dtgv_Customer.TabIndex = 24;
+            this.dtgv_Customer.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_Customer_CellClick);
             // 
             // panel2
             // 
@@ -441,9 +451,10 @@
             this.panel2.Controls.Add(this.btn_NextCustomer);
             this.panel2.Controls.Add(this.btn_FristCustomer);
             this.panel2.Controls.Add(this.btn_PrevioursCustomer);
-            this.panel2.Location = new System.Drawing.Point(299, 565);
+            this.panel2.Location = new System.Drawing.Point(224, 459);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(623, 53);
+            this.panel2.Size = new System.Drawing.Size(467, 43);
             this.panel2.TabIndex = 25;
             // 
             // btn_LastCustomer
@@ -452,9 +463,10 @@
             this.btn_LastCustomer.FlatAppearance.BorderSize = 0;
             this.btn_LastCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_LastCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btn_LastCustomer.Image")));
-            this.btn_LastCustomer.Location = new System.Drawing.Point(518, 13);
+            this.btn_LastCustomer.Location = new System.Drawing.Point(388, 11);
+            this.btn_LastCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_LastCustomer.Name = "btn_LastCustomer";
-            this.btn_LastCustomer.Size = new System.Drawing.Size(75, 23);
+            this.btn_LastCustomer.Size = new System.Drawing.Size(56, 19);
             this.btn_LastCustomer.TabIndex = 26;
             this.btn_LastCustomer.UseVisualStyleBackColor = false;
             this.btn_LastCustomer.Click += new System.EventHandler(this.btn_LastCustomer_Click);
@@ -466,9 +478,10 @@
             this.btn_NextCustomer.FlatAppearance.BorderSize = 0;
             this.btn_NextCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_NextCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btn_NextCustomer.Image")));
-            this.btn_NextCustomer.Location = new System.Drawing.Point(345, 13);
+            this.btn_NextCustomer.Location = new System.Drawing.Point(259, 11);
+            this.btn_NextCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_NextCustomer.Name = "btn_NextCustomer";
-            this.btn_NextCustomer.Size = new System.Drawing.Size(75, 23);
+            this.btn_NextCustomer.Size = new System.Drawing.Size(56, 19);
             this.btn_NextCustomer.TabIndex = 27;
             this.btn_NextCustomer.UseVisualStyleBackColor = false;
             this.btn_NextCustomer.Click += new System.EventHandler(this.btn_NextCustomer_Click);
@@ -479,9 +492,10 @@
             this.btn_FristCustomer.FlatAppearance.BorderSize = 0;
             this.btn_FristCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_FristCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btn_FristCustomer.Image")));
-            this.btn_FristCustomer.Location = new System.Drawing.Point(3, 13);
+            this.btn_FristCustomer.Location = new System.Drawing.Point(2, 11);
+            this.btn_FristCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_FristCustomer.Name = "btn_FristCustomer";
-            this.btn_FristCustomer.Size = new System.Drawing.Size(75, 23);
+            this.btn_FristCustomer.Size = new System.Drawing.Size(56, 19);
             this.btn_FristCustomer.TabIndex = 26;
             this.btn_FristCustomer.UseVisualStyleBackColor = false;
             this.btn_FristCustomer.Click += new System.EventHandler(this.btn_FristCustomer_Click);
@@ -492,19 +506,20 @@
             this.btn_PrevioursCustomer.FlatAppearance.BorderSize = 0;
             this.btn_PrevioursCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_PrevioursCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btn_PrevioursCustomer.Image")));
-            this.btn_PrevioursCustomer.Location = new System.Drawing.Point(170, 13);
+            this.btn_PrevioursCustomer.Location = new System.Drawing.Point(128, 11);
+            this.btn_PrevioursCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_PrevioursCustomer.Name = "btn_PrevioursCustomer";
-            this.btn_PrevioursCustomer.Size = new System.Drawing.Size(75, 23);
+            this.btn_PrevioursCustomer.Size = new System.Drawing.Size(56, 19);
             this.btn_PrevioursCustomer.TabIndex = 26;
             this.btn_PrevioursCustomer.UseVisualStyleBackColor = false;
             this.btn_PrevioursCustomer.Click += new System.EventHandler(this.btn_PrevioursCustomer_Click);
             // 
             // AdminCustom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
-            this.ClientSize = new System.Drawing.Size(1223, 622);
+            this.ClientSize = new System.Drawing.Size(917, 505);
             this.ControlBox = false;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.dtgv_Customer);
@@ -512,6 +527,7 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel6);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "AdminCustom";
             this.Text = "AdminCustom";
             this.Load += new System.EventHandler(this.AdminCustom_Load);
